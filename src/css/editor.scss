@@ -1,0 +1,49 @@
+:root {
+	--wp--preset--border-radius-ui: 12px;
+}
+
+.wp-block-ud-toggle-container {
+	background-color: var(--wp--preset--color--ui-neutral-100) !important;
+	border-radius: 12px;
+
+	.ud-toggle-switch {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 12px;
+		.ud-toggle-label {
+			background-color: white;
+			padding: 4px 8px;
+			line-height: 1;
+			border-radius: 4px;
+		}
+		.ud-toggle-control {
+			.components-flex.components-h-stack {
+				gap: 0;
+			}
+		}
+	}
+}
+
+.ud-toggle-container[data-active="one"] .ud-toggle-content > .block-editor-inner-blocks,
+.ud-toggle-container[data-active="two"] .ud-toggle-content > .block-editor-inner-blocks,
+.ud-toggle-container[data-active="one"] .ud-toggle-content > .block-editor-inner-blocks > .block-editor-block-list__layout > *:nth-child(1),
+.ud-toggle-container[data-active="two"] .ud-toggle-content > .block-editor-inner-blocks > .block-editor-block-list__layout > *:nth-child(2){
+	visibility: visible;
+	position: relative;
+	z-index: 1;
+	opacity: 1;
+	width: unset;
+	height: auto;
+}
+
+
+.ud-toggle-container[data-active="one"] .ud-toggle-content > .block-editor-inner-blocks > .block-editor-block-list__layout > *:nth-child(2),
+.ud-toggle-container[data-active="two"] .ud-toggle-content > .block-editor-inner-blocks > .block-editor-block-list__layout > *:nth-child(1){
+	visibility: hidden;
+	position: absolute;
+	z-index: 0;
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+}

@@ -1,0 +1,69 @@
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/css/frontend.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+.ud-toggle-container .ud-toggle-content > * {
+  visibility: hidden;
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.ud-toggle-container[data-active=one] .ud-toggle-content > *:nth-child(1),
+.ud-toggle-container[data-active=two] .ud-toggle-content > *:nth-child(2) {
+  visibility: visible;
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  width: unset;
+  height: auto;
+  transition: all 0.4s;
+}
+
+.ud-toggle-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ud-toggle-container .ud-toggle-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.ud-toggle-container .ud-toggle-header .ud-toggle-switch {
+  position: relative;
+  width: 54px;
+  height: 28px;
+  flex: 0 0 auto;
+}
+.ud-toggle-container .ud-toggle-header .ud-toggle-switch input {
+  display: none;
+}
+.ud-toggle-container .ud-toggle-header .ud-toggle-switch .slider {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: var(--wp--preset--color--sand-dark);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.ud-toggle-container .ud-toggle-header .ud-toggle-switch .slider::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+.ud-toggle-container .ud-toggle-header .ud-toggle-switch input:checked + .slider::after {
+  transform: translateX(26px);
+}
+
+/*# sourceMappingURL=frontend-style.css.map*/

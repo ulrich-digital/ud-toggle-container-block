@@ -1,0 +1,28 @@
+{
+    "apiVersion": 2,
+    "name": "ud/toggle-container",
+    "title": "Toggle Container",
+    "category": "layout",
+    "icon": "screenoptions",
+    "description": "Ein Umschalt-Container mit zwei Ansichten",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "labelOne": {
+            "type": "string"
+        },
+        "labelTwo": {
+            "type": "string"
+        },
+        "activeView": {
+            "type": "string",
+            "default": "one"
+        }
+    },
+    "editorStyle": "file:./build/editor-style.css",
+    "style": "file:./build/frontend-style.css",
+    "editorScript": "file:./build/editor-script.js",
+    "script": "file:./build/frontend-script.js",
+    "render": "file:./includes/render.php"
+}
