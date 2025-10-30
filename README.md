@@ -28,6 +28,14 @@ Jede Ansicht kann mit beliebigen Blöcken gefüllt werden. Der sichtbare Bereich
 
 ---
 
+![Editor-Ansicht](./assets/editor-view.png)  
+*Abbildung: Block im Editor mit beiden Ansichten.*
+
+![Frontend-Ansicht](./assets/ud-toggle-container-block.png)  
+*Abbildung: Frontend-Darstellung mit Umschalt-Schaltflächen.*
+
+---
+
 ## Technische Details
 
 - **Blockname:** `ud/toggle-container`
