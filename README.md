@@ -28,6 +28,8 @@ Jede Ansicht kann mit beliebigen Blöcken gefüllt werden. Der sichtbare Bereich
 
 ---
 
+## Screenshots
+
 ![Editor-Ansicht](./assets/editor-view.png)  
 *Abbildung: Block im Editor mit beiden Ansichten.*
 
