@@ -38,11 +38,11 @@ Jede Ansicht kann mit beliebigen Blöcken gefüllt werden. Der sichtbare Bereich
   - `labelTwo` *(string)* – Beschriftung der zweiten Ansicht
   - `activeView` *(string)* – aktuell aktive Ansicht (`one` oder `two`)
 
-### 🔗 Abhängigkeiten
+### Abhängigkeiten
 - Keine externen UD-Plugins erforderlich
 - Vollständig eigenständig nutzbar
 
-### 🧩 Unterstützt
+### Unterstützt
 - Alle Standard-WordPress-Blöcke als Inhalt in beiden Ansichten
 - Themes mit Full Site Editing (FSE)
 
