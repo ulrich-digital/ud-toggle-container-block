@@ -21,7 +21,7 @@ Jede Ansicht kann mit beliebigen Blöcken gefüllt werden. Der sichtbare Bereich
 *Frontend-Darstellung mit Umschalt-Schaltflächen.*
 
 ![Editor-Ansicht](./assets/editor-view.png)  
-*Block im Editor mit beiden Ansichten.*
+*Block im Editor*
 
 
 ## Autor
